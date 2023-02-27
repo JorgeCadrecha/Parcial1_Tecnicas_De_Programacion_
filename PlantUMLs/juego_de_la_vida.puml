@@ -1,0 +1,16 @@
+@startuml
+class Tablero{
+int[][] estadoSiguiente
+int[][]  estadoActual 
+int  Dimension = 30
+
+void leerEstadoActual()
+void generarEstadoActualPorMontecarlo()
+void transitarAlEstadoSiguient()
+toString()
+}
+class Principal 
+Principal : main (args : String []) : void
+
+Principal -- Tablero
+@enduml

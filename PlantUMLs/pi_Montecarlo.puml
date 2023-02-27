@@ -1,0 +1,10 @@
+@startuml
+class Matematicas
+Matematicas : generarNumeroPi(pasos : long) : double
+
+
+class Principal 
+Principal : main (args : String []) : void
+
+Principal -- Matematicas
+@enduml
